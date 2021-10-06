@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace A_trip_to_the_library.LibraryBackend
+﻿namespace A_trip_to_the_library.LibraryBackend
 {
     class Book
     {
@@ -30,6 +24,7 @@ namespace A_trip_to_the_library.LibraryBackend
             get { return author; }
             set { author = value; }
         }
+
         public string Genre
         {
             get { return genre; }

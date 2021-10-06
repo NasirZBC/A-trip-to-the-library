@@ -36,7 +36,6 @@ namespace A_trip_to_the_library.LibraryBackend
             wantedBooks.Add(false);
         }
 
-        
         public List<string> BookCheckOut()
         {
             Book currentUserBook;
